@@ -32,7 +32,29 @@
         <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />        
+        <link href="css/styles.css" rel="stylesheet" />  
+        
+        <style type="text/css">
+
+          .sidebar li .submenu{ 
+            list-style: none; 
+            margin: 0; 
+            padding: 0; 
+            padding-left: 1rem; 
+            padding-right: 1rem;
+          }
+          
+          .sidebar .nav-link {
+              font-weight: 500;
+              color: var(--bs-dark);
+          }
+          .sidebar .nav-link:hover {
+              color: var(--bs-primary);
+          }
+          
+          </style>
+          
+          
         
     </head>
     <body id="page-top">
@@ -46,7 +68,7 @@
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
     <div class="collapse navbar-collapse" id="navbarResponsive">
-      <ul class="navbar-nav">
+      <ul class="nav navbar-nav" id="nav_accordion">
 		<li class="nav-item">
           <a href="http://petroniocandido.github.io/"><span class="fi fi-us" alt="English"> </span></a>
           <a href="http://petroniocandido.github.io/pt-br/"><span class="fi fi-br" alt="Portuguese"> </span></a>
@@ -67,8 +89,17 @@
           <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#production">Production</a>
+          <a class="nav-link js-scroll-trigger" data-bs-toggle="collapse" data-bs-target="#menu_item1"  href="#production">Production <span class="caret"></span></a>
+          <ul id="menu_item1" class="submenu collapse" data-bs-parent="#nav_accordion">
+            <li><a class="nav-link js-scroll-trigger" href="#papers">Papers</a></li>
+            <li><a class="nav-link js-scroll-trigger" href="#presentations">Presentations</a></li>
+            <li><a class="nav-link js-scroll-trigger" href="#softwares">Softwares</a></li>
+            <li><a class="nav-link js-scroll-trigger" href="#courses">Courses</a></li>
+          </ul>
         </li>
+        <!-- <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#production">Production</a>
+        </li>-->
       </ul>
     </div>
   </nav>
@@ -443,25 +474,25 @@
 			</a>
 		
         </div>
-        <div class="subheading mb-3"><i class="fas fa-newspaper"></i> Journal and conference papers</div>
+        <div class="subheading mb-3" id="papers"><i class="fas fa-newspaper"></i> Journal and conference papers</div>
         <ul class="fa-ul mb-0">
           <li point-component="production"><i class="fa-li fa fa-check"></i><a href="{{url}}">{{title}}</a><br /> {{medium}}, {{year}}</li>
         </ul>
         
 		<br />
-		<div class="subheading mb-3"><i class="fas fa-chalkboard-teacher"></i> Presentations and talks</div>
+		<div class="subheading mb-3" id="presentations"><i class="fas fa-chalkboard-teacher"></i> Presentations and talks</div>
     <ul class="fa-ul mb-0">
       <li point-component="talks"><i class="fa-li fa fa-check"></i><a	href="{{url}}">{{title}}</a><br />{{medium}}, {{year}}</li>
     </ul>
 		<br />
-	    <div class="subheading mb-3"><i class="fab fa-dev"></i> Open Source software and libraries</div>
+	    <div class="subheading mb-3" id="softwares"><i class="fab fa-dev"></i> Open Source software and libraries</div>
 	      	<ul class="fa-ul mb-0">
 			<li><i class="fa-li fa fa-check"></i><a href="https://github.com/petroniocandido/COVID19_AgentBasedSimulation">covid_abs - COVID-19 Agent-Based Simulator</a><br /> IFNMG, 2020</li> 
 			<li><i class="fa-li fa fa-check"></i><a href="https://pyfts.github.io/pyFTS/">pyFTS - Fuzzy Time Series For Python</a><br /> UFMG, 2018</li> 
 			<li><i class="fa-li fa fa-check"></i><a href="https://docs.google.com/document/d/1PQmxqVY7QJBIGDI6QXQ3PTRVHI-FvWKF0JtMOhExyUo/edit?usp=sharing">Sistema Gerenciador de Eventos Acadêmicos (SGEA)</a><br /> IFNMG Campus Januária, 2014</li>
         	</ul>
 	      <br />
-	      <div class="subheading mb-3"><i class="fas fa-clipboard-list"></i> Tutorials, short courses and courseware</div>
+	      <div class="subheading mb-3" id="courses"><i class="fas fa-clipboard-list"></i> Tutorials, short courses and courseware</div>
 	      	<ul class="fa-ul mb-0">
             <li point-component="courses"><i class="fa-li fa fa-check"></i><a	href="{{url}}">{{title}}</a><br />{{medium}}, {{year}}</li> 
           </ul>
