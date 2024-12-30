@@ -1,0 +1,22 @@
+[
+{ "url":"https://doi.org/10.1007/978-3-031-56728-5_5", "title": "Time Series Forecasting Using Parallel Randomized Fuzzy Cognitive Maps and Reservoir Computing", "medium": "Emerging Trends and Applications in Artificial Intelligence", "year": "2024" },
+{ "url":"https://doi.org/10.1109/TFUZZ.2024.3379853", "title": "Multiple-Input Multiple-Output Randomized Fuzzy Cognitive Map Method for High-Dimensional Time Series Forecasting", "medium": "IEEE Transactions on Fuzzy Systems", "year": "2024" },
+{ "url":"https://doi.org/10.1109/TFUZZ.2024.3364585", "title": "A Fuzzy-Probabilistic Representation Learning Method for Time Series Classification", "medium": "IEEE Transactions on Fuzzy Systems", "year": "2024" },
+{ "url":"https://doi.org/10.1016/j.chaos.2023.114077", "title": "Multi-output time series forecasting with randomized multivariate Fuzzy Cognitive Maps", "medium": "Chaos, Solitons, &#38; Fractals", "year": "2023" },
+{ "url":"https://doi.org/10.1007/s12530-023-09532-x", "title": "Autonomous data partitioning for type-2 fuzzy set based time series", "medium": "Evolving Systems", "year": "2023" },
+{ "url":"https://doi.org/10.1016/j.energy.2023.127072", "title": "Combining embeddings and fuzzy time series for high-dimensional time series forecasting in internet of energy applications", "medium": "Energy ", "year": "2023" },
+{ "url":"https://doi.org/10.1007/s00521-022-08120-5", "title": "An embedding-based non-stationary fuzzy time series method for multiple output high-dimensional multivariate time series forecasting in IoT applications", "medium": "Neural Computing and Applications ", "year": "2022" },
+{ "url":"https://doi.org/10.1007/s10462-022-10319-w", "title": "Time series forecasting using fuzzy cognitive maps: a survey", "medium": "Artificial Intelligence Review", "year": "2022" },
+{ "url":"https://doi.org/10.21528/lnlm-vol19-no2-art3", "title": "A Tutorial on Fuzzy Time Series Forecasting Models: Recent Advances and Challenges", "medium": "Learning and NonLinear Models", "year": "2022" },
+{ "url":"https://doi.org/10.1016/j.neucom.2022.09.030", "title": "Randomized High Order Fuzzy Cognitive Maps as Reservoir Computing Models: A first introduction and applications.", "medium": " Neurocomputng", "year": "2022" },
+{ "url":"https://doi.org/10.1007/s12530-022-09452-2", "title": "Interval type-2 fuzzy set based time series forecasting using a data-driven partitioning approach.", "medium": " Evolving Systems, Springer", "year": "2022" },
+{ "url":"https://doi.org/10.1016/j.renene.2021.02.117", "title": "Evolving fuzzy time series for spatio-temporal forecasting in renewable energy systems", "medium": "Renewable Energy", "year": "2021" },
+{ "url":"https://doi.org/10.1016/j.asoc.2020.106825", "title": "Forecasting in Non-stationary Environments with Fuzzy Time Series", "medium": "Applied Soft Computing", "year": "2020" },
+{ "url":"http://dx.doi.org/10.1016/j.compag.2020.105700", "title": " Reference evapotranspiration time series forecasting with ensemble of convolutional neural networks", "medium": " Computers And Electronics In Agriculture", "year": "2020" },
+{ "url":"https://doi.org/10.1016/j.chaos.2020.110088", "title": "COVID-ABS: An Agent-Based Model of COVID-19 Epidemic to Simulate Health and Economic Effects of Social Distancing Interventions", "medium": "Chaos, Solitons &#38; Fractals, Elsevier", "year": "2020" },
+{ "url":"https://doi.org/10.1007/s40815-020-00841-w", "title": "Markov Weighted Fuzzy Time-Series Model Based on an Optimum Partition Method for Forecasting Air Pollution", "medium": " International Journal of Fuzzy Systems", "year": "2020" },  
+{ "url":"https://doi.org/10.1109/TNSM.2020.2980289", "title": "Distributed Evolutionary Hyperparameter Optimization for Fuzzy Time Series", "medium": " Transactions on Network and Service Management, IEEE", "year": "2020" },
+{ "url":"https://doi.org/10.3390/sym12020293", "title": "Predicting Daily Air Pollution Index Based on Fuzzy Time Series Markov Chain Model", "medium": "Symmetry, MDPI", "year": "2020" },
+{ "url":"https://doi.org/10.1109/tfuzz.2019.2922152", "title": "Probabilistic Forecasting With Fuzzy Time Series", "medium": "Transactions on Fuzzy Systems, IEEE", "year": "2019" },
+{ "url":"https://doi.org/10.1016/j.energy.2019.03.081", "title": "Short-term load forecasting by using a combined method of convolutional neural networks and fuzzy time series", "medium": "Energy, Elsevier", "year": "2019" }
+]
