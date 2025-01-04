@@ -91,7 +91,9 @@
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" data-bs-toggle="collapse" data-bs-target="#menu_item1"  href="#production">Production <span class="caret"></span></a>
           <ul id="menu_item1" class="submenu collapse" data-bs-parent="#nav_accordion">
-            <li><a class="nav-link js-scroll-trigger" href="#papers">Papers</a></li>
+            <li><a class="nav-link js-scroll-trigger" href="#journal">Journal Papers</a></li>
+	    <li><a class="nav-link js-scroll-trigger" href="#conference">Conference Papers</a></li>
+	    <li><a class="nav-link js-scroll-trigger" href="#other">Other Publications</a></li>
             <li><a class="nav-link js-scroll-trigger" href="#presentations">Presentations</a></li>
             <li><a class="nav-link js-scroll-trigger" href="#softwares">Softwares</a></li>
             <li><a class="nav-link js-scroll-trigger" href="#courses">Courses</a></li>
@@ -476,12 +478,21 @@
 			</a>
 		
         </div>
-        <div class="subheading mb-3" id="papers"><i class="fas fa-newspaper"></i> Journal and conference papers</div>
+        <div class="subheading mb-3" id="journal"><i class="fas fa-newspaper"></i> Journal Papers</div>
         <ul class="fa-ul mb-0">
-          <li point-component="production"><i class="fa-li fa fa-check"></i><a href="{{url}}" target="_blank">{{title}}</a><br /> {{medium}}, {{year}}</li>
+          <li point-component="journals"><i class="fa-li fa fa-check"></i><a href="{{url}}" target="_blank">{{title}}</a><br /> {{medium}}, {{year}}</li>
         </ul>
-        
-		<br />
+	<br />
+	<div class="subheading mb-3" id="conference"><i class="fas fa-newspaper"></i> Conference Papers</div>
+        <ul class="fa-ul mb-0">
+          <li point-component="conferences"><i class="fa-li fa fa-check"></i><a href="{{url}}" target="_blank">{{title}}</a><br /> {{medium}}, {{year}}</li>
+        </ul>
+	<br />
+	<div class="subheading mb-3" id="other"><i class="fas fa-newspaper"></i>Other Publications</div>
+        <ul class="fa-ul mb-0">
+          <li point-component="others"><i class="fa-li fa fa-check"></i><a href="{{url}}" target="_blank">{{title}}</a><br /> {{medium}}, {{year}}</li>
+        </ul>
+	<br />
 		<div class="subheading mb-3" id="presentations"><i class="fas fa-chalkboard-teacher"></i> Presentations and talks</div>
     <ul class="fa-ul mb-0">
       <li point-component="talks"><i class="fa-li fa fa-check"></i><a	href="{{url}}" target="_blank">{{title}}</a><br />{{medium}}, {{year}}</li>
@@ -509,7 +520,10 @@
         <script src="js/scripts.js"></script>
 
         <script>
-          point.attachJSON("https://petroniocandido.github.io/data/production.json", "production");
+          //point.attachJSON("https://petroniocandido.github.io/data/production.json", "production");
+	  point.attachJSON("https://petroniocandido.github.io/data/journals.json", "journals");
+	  point.attachJSON("https://petroniocandido.github.io/data/conferences.json", "conferences");
+	  point.attachJSON("https://petroniocandido.github.io/data/others.json", "others");
           point.attachJSON("https://petroniocandido.github.io/data/talks.json", "talks");
           point.attachJSON("https://petroniocandido.github.io/data/courses.json", "courses");
         </script>
