@@ -1,4 +1,6 @@
 [
+{ "url":"https://doi.org/10.1007/s12530-025-09759-w", "title": "Automated forecasting model leveraging large reservoirs of randomized fuzzy cognitive maps", "medium": "Evolving Systems", "year": "2025" },
+{ "url":"https://doi.org/10.1016/j.sste.2025.100765", "title": "Sociodemographic and political factors associated with COVID-19 mortality in Brazilian municipalities across three years: An approach supported by Gaussian Mixture clustering", "medium": "Spatial and Spatio-temporal Epidemiology", "year": "2025" },
 { "url":"https://doi.org/10.1109/ACCESS.2025.3554097", "title": "Time Series Classification Using Federated Convolutional Neural Networks and Image-Based Representations", "medium": "IEEE Access", "year": "2025" },
 { "url":"https://doi.org/10.1109/JIOT.2025.3549715", "title": "A Multi-Step Multivariate Fuzzy-based Time Series Forecasting on Internet of Things Data", "medium": "IEEE Internet of Things Journal ", "year": "2025" },
 { "url":"https://doi.org/10.1007/978-3-031-56728-5_5", "title": "Time Series Forecasting Using Parallel Randomized Fuzzy Cognitive Maps and Reservoir Computing", "medium": "Emerging Trends and Applications in Artificial Intelligence", "year": "2024" },
